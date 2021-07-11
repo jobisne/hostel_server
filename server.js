@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const { MONGODB } = require('./config');
-const PORT = process.env.port || 4000;
+const PORT = process.env.PORT || 4000;
 
 const typeDefs = require('./graphql/typeDefs');
 const resolvers = require('./graphql/resolvers');
