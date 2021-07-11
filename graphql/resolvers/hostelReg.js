@@ -59,7 +59,7 @@ module.exports = {
               const newHostel = new Hostel({
                   hostelName,
                   hostelMaster,
-                  hostelImage: `http://localhost:4000/images/${randomName}`,
+                  hostelImage: `https://fast-eyrie-13923.herokuapp.com/images/${randomName}`,
                   hostelDesc,
                   yearEstablish,
                   createdAt: new Date().toISOString()

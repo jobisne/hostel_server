@@ -156,7 +156,7 @@ module.exports = {
         healthstatus,
         hostelName,
         quranStatus,
-        image: `http://localhost:4000/images/${randomName}`,
+        image: `https://fast-eyrie-13923.herokuapp.com/images/${randomName}`,
         relationshipone,
         fname,
         foccupation,
